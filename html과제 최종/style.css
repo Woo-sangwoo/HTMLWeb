@@ -1,0 +1,98 @@
+@charset "UTF-8";
+	/* 헤더 */
+	header {
+		width: 1600px;
+		height: 270px;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 50px;
+	}
+	#headerImage {
+		width: 500px;
+		height: 230px; 
+	}
+	#headerText{
+		display: inline-block;
+		color: black;
+		font-size: 40px;
+		font-weight: 600;
+		margin-top: 15px;
+		text-decoration: none; /*링크 안보임*/
+	}
+	/*nav 메뉴 목록 만들기*/
+	nav {
+		width: 90%;
+		background: blueviolet;
+		margin: 0 auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+	ul { /*여백과 패팅 0*/
+		margin: 0 auto;
+	}
+	li{
+		display: inline;
+		list-style-type: none; /*마커 삭제*/
+		margin: 0 auto;
+	}
+	li a:hover {
+		color: red; /*마우스 올라갈때 색 */
+	}	
+	#blank {
+		height: 25px;
+	}
+	#contents1 {
+		margin: 0 auto;
+		width: 80%;
+		height: 1270px;
+		border: 1px solid red;
+		background-color: #ffdddd;
+	}
+	#contents2 {
+		margin: 0 auto;
+		width: 80%;
+		height: 1270px;
+		border: 1px solid green;
+		background-color: #ceffce;
+	}
+	#contents3 {
+		margin: 0 auto;
+		width: 80%;
+		height: 1270px;
+		border: 1px solid blue;
+		background-color: #e3e3ff;
+	}
+	#title {
+		margin-top: 30px;
+		font-size: 40px;
+		font-weight: 600;
+		text-align: center;
+	}
+	#imagebig {
+		width: 650px;
+		height: 520px;
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+	#textbox {
+		width: 700px;
+		height: 430px;
+		margin-left: 760px;
+		margin-top: -430px;
+		text-align: center;
+		font-size: 30px;
+		font-weight: 500;
+	}
+	#imagesmall {
+		display: inline-block;
+		width: 350px;
+		height: 260px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	#map {
+		display: inline;
+		margin-top: -10px;
+		margin-right: 30px; 
+		float: right;
+	}
